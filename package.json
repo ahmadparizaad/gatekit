@@ -1,0 +1,22 @@
+{
+  "name": "gatekit",
+  "version": "1.0.0",
+  "description": "Outcome-calibrated allow/deny thresholds for AI decision gates",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

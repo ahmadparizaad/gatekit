@@ -1,0 +1,9 @@
+node_modules/
+gatekit.db
+.DS_Store
+
+# Local environment and dependencies
+.env
+.env.*
+!.env.example
+.venv/
